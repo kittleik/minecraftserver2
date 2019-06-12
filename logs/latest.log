@@ -1,0 +1,23 @@
+[18:46:25] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[18:46:25] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[18:46:25] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[18:46:25] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[18:46:25] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[18:46:25] [Server thread/INFO]: Starting minecraft server version 1.14.2
+[18:46:25] [Server thread/INFO]: Loading properties
+[18:46:25] [Server thread/INFO]: Default game type: SURVIVAL
+[18:46:25] [Server thread/INFO]: Generating keypair
+[18:46:26] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:46:26] [Server thread/INFO]: Using epoll channel type
+[18:46:26] [Server thread/WARN]: **** FAILED TO BIND TO PORT!
+[18:46:26] [Server thread/WARN]: The exception was: io.netty.channel.unix.Errors$NativeIoException: bind(..) failed: Address already in use
+[18:46:26] [Server thread/WARN]: Perhaps a server is already running on that port?
+[18:46:26] [Server thread/INFO]: Stopping server
+[18:46:26] [Server thread/INFO]: Saving worlds
+[18:46:26] [Server thread/ERROR]: Exception stopping the server
+java.lang.NullPointerException: null
+	at net.minecraft.server.MinecraftServer.a(SourceFile:536) ~[server.jar:?]
+	at net.minecraft.server.MinecraftServer.l(SourceFile:564) ~[server.jar:?]
+	at ug.l(SourceFile:588) ~[server.jar:?]
+	at net.minecraft.server.MinecraftServer.run(SourceFile:666) [server.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
